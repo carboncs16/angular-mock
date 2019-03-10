@@ -1,0 +1,40 @@
+.main-content {
+    /* border: 1px solid black;  */
+    margin-left: 1.5%;
+    /* width: 97%; */
+    font-size: 95%
+}
+.toolbar {
+    /* border: 1px solid black; */
+    background-color: rgb(132, 248, 248);
+    margin-left: 1.5%;
+}
+.sidenav {
+    float: left;
+    /* padding: 1%; */
+    height: 100%; /* 100% Full-height */
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 3%;
+    background-color: rgb(8, 8, 128);
+    color: white;
+}
+.sidenav a {
+    padding-left: 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 100%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.container-fluid {
+    padding: 0px !important;
+    /* position: fixed; */
+}

@@ -1,0 +1,11 @@
+.additional-line {
+    width: 100%;
+    padding: 7%;
+    border: 1px solid black;
+}
+input {
+    width: 65%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}

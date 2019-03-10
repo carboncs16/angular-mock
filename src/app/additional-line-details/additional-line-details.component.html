@@ -1,0 +1,67 @@
+<div style="border:1px solid black">
+  <h5 (click)="toggleAdditionalDetails()" style="cursor:pointer">{{icon}} Additional Line Details</h5>
+  <div class="row"  *ngIf="show">
+    <div class="col-sm-9">
+      <table class="table table-responsive">
+        <thead>
+          <tr>
+            <td>Line Num.</td>
+            <td>Promise Date</td>
+            <td>Receipt Tel.</td>
+            <td>Invoice Tel.</td>
+            <td>States</td>
+            <td>Qty. Rev</td>
+            <td>Qty. Billed</td>
+            <td>Qty. Can.</td>
+            <td>Receipt Rout.</td>
+            <td>Dist.</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- <app-display-pad></app-display-pad> -->
+    <div class="col-sm-3" style="border: 1px solid black;padding-left:1%;">
+      <h5 class="text-center">Display Pad</h5>
+      <form>
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="contract-start-date">Contract Start Date</label></td>
+              <td class="text-right"><input type="text" id="contract-start-date" pInputText></td>
+            </tr>
+            <tr>
+              <td><label for="last-invoice-price">Last Invoice Price</label></td>
+              <td class="text-right"><input type="text" id="last-invoice-price" pInputText></td>
+            </tr>
+            <tr>
+              <td><label for="contract-end-date">Contract End Date</label></td>
+              <td class="text-right"><input type="text" id="contract-end-date" pInputText></td>
+            </tr>
+            <tr>
+              <td><label for="last-po-number">Last PO Number</label></td>
+              <td class="text-right"><input type="text" id="last-po-number" pInputText></td>
+            </tr>
+            <tr>
+              <td><label for="precedence">Precedence</label></td>
+              <td class="text-right"><input type="text" id="precedence" pInputText></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>

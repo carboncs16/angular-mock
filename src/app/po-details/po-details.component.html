@@ -1,0 +1,91 @@
+<div class="po-details">
+  <h5 style="cursor:pointer" (click)="togglePO()">{{icon}} PO Details Works</h5>
+  <div class="row" *ngIf="show">
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="po-number" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="po-number">PO Number</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="ordering-branch" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="ordering-branch">Ordering Branch</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="supplier" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="supplier">Supplier</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="supplier-site" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="supplier-site">Supplier Site</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="carrier-acc-no" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="carrier-acc-no">Carrier Acct. No.</label>
+      </span>
+    </div>
+    <div class="col-sm-1">
+      <span class="ui-float-label">
+        <input id="ship-via" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="ship-via">Ship Via</label>
+      </span>
+    </div>
+    <div class="col-sm-1">
+      <span class="ui-float-label">
+        <input id="supplier-edi-flag" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="supplier-edi-flag">Supplier EDI Flag</label>
+      </span>
+    </div>
+  </div>
+  <div class="row" *ngIf="show">
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="sat-po-type" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="sat-po-type">Sat PO Type</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="buyer" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="buyer">Buyer</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="auth-status" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="auth-status">Authorization Status</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="supplier-contact" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="supplier-contact">Supplier Contact Name</label>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <span class="ui-float-label">
+        <input id="skipping-terms" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="skipping-terms">Skipping Terms</label>
+      </span>
+    </div>
+    <div class="col-sm-1">
+      <span class="ui-float-label">
+        <input id="fob" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="fob">FOB</label>
+      </span>
+    </div>
+    <div class="col-sm-1">
+      <span class="ui-float-label">
+        <input id="send-edi" type="text" size="30" pInputText [(ngModel)]="text1">
+        <label for="send-edi">Send EDI</label>
+      </span>
+    </div>
+  </div>
+</div>
